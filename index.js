@@ -48,7 +48,7 @@ function removeFromCart(item) {
   var inCart = [];
   for (let i = 0; i < cart.length; i++) {
     var newCart = cart[i];
-    
+    var key = Object.keys()
   }
 }
 
