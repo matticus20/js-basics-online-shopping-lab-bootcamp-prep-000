@@ -37,7 +37,7 @@ function total() {
   var totalPrice = 0;
   for (i = 0; i < cart.length, i++) {
     var itemPrice = [Object.values(cart[i])];
-    price.push()
+    price.push(parseInt(itemPrice))
   }
 }
 
