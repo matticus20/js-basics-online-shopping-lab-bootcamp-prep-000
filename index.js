@@ -35,11 +35,11 @@ function viewCart() {
 function total() {
   var price = [];
   var totalPrice = 0;
-  for (i = 0; i < cart.length; i++) {
+  for (let i = 0; i < cart.length; i++) {
     var itemPrice = [Object.values(cart[i])];
     price.push(parseInt(itemPrice));
   }
-  for (j = 0; j < price.length; j++) {
+  for (let j = 0; j < price.length; j++) {
     totalPrice = price[j] += totalPrice;
   }
   return totalPrice;
