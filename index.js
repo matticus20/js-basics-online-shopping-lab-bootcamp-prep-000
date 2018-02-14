@@ -50,7 +50,7 @@ function removeFromCart(item) {
     var newCart = cart[i];
     var key = Object.keys(cart[i]);
     if (newCart.hasOwnProperty(item)) {
-      
+      inCart = 
     }
   }
 }
