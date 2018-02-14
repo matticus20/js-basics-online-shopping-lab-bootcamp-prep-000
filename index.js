@@ -39,7 +39,7 @@ function total() {
     var itemPrice = [Object.values(cart[i])];
     price.push(parseInt(itemPrice));
   }
-  for (j = 0; j < price.length, j++) {
+  for (j = 0; j < price.length; j++) {
     totalPrice = price[j] += totalPrice;
   }
   return totalPrice;
