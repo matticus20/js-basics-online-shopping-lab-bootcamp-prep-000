@@ -33,15 +33,8 @@ function viewCart() {
 }
 
 function total() {
-  var cartPrices = [];
-  for (let i = 0; i < cart.length; i++) {
-    const cartItem = cart[i];
-    for (let j = 0; j < cartItem.length; j++) {
-      var cartPrice = Object.values(cartItem[j]);
-      cartPrices.push(cartPrice);
-    }
-  }
-  console.log(cartPrices);
+  var price = [];
+  
 }
 
 function removeFromCart(item) {
