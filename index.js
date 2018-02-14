@@ -34,6 +34,7 @@ function viewCart() {
 
 function total() {
   var price = [];
+  var totalPrice = 0;
   
 }
 
