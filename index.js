@@ -61,5 +61,7 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber) {
-  
+  if (cardNumber === undefined) {
+    console.log('Sorry, we don\'t have ')
+  }
 }
