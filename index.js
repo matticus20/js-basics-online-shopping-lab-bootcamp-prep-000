@@ -53,6 +53,7 @@ function removeFromCart(item) {
       inCart = cart.splice(i,1);
     }
   }
+  if 
 }
 
 function placeOrder(cardNumber) {
