@@ -40,7 +40,7 @@ function total() {
     price.push(parseInt(itemPrice));
   }
   for (j = 0; j < price.length, j++) {
-    
+    totalPrice = 
   }
 }
 
