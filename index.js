@@ -49,7 +49,9 @@ function removeFromCart(item) {
   for (let i = 0; i < cart.length; i++) {
     var newCart = cart[i];
     var key = Object.keys(cart[i]);
-    if (newCart.hasOwnProperty(item))
+    if (newCart.hasOwnProperty(item)) {
+      
+    }
   }
 }
 
